@@ -63,6 +63,10 @@ Your local Vue.js web client should now be connected to Ollama!
 
 Type a message and start chatting with your local LLM.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pankaj046/Basic-ollama-web-ui/refs/heads/master/screenshot.png" width="100%" height="80%" title="hover text">
+</p>
+
 🔗 Useful Links
 ---------------
 
