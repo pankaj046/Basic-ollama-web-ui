@@ -483,7 +483,7 @@ const sendPrompt = async () => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'phi3',
+        model: 'mistral', //phi3',
         prompt: userPrompt,
         stream: true
       })
@@ -604,7 +604,10 @@ onUnmounted(() => {
   height: 75vh;
   min-height: 400px;
   max-height: 600px;
-  padding: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 40px;
   overflow-y: auto;
   scroll-behavior: smooth;
   margin-bottom: 0px;
@@ -743,7 +746,7 @@ onUnmounted(() => {
   background: #f8f9fa;
   border-radius: 18px;
   border-bottom-left-radius: 8px;
-  max-width: 85%;
+  max-width: 40%;
   margin-right: auto;
 }
 
